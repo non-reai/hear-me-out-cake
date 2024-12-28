@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#cake {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#cake-background {
+    height: 130%;
+    transform: translate(50%, 50%);
+    z-index: 1;
+}
+
+#cake-foreground {
+    height: 130%;
+    transform: translate(-50%, 50%);
+    z-index: 3;
+}
+
+.popsicle {
+    position: absolute;
+    z-index: 2;
+}
+
+.image {
+    position: absolute;
+    z-index: 2;
+    max-width: 200px;
+    max-height: 200px;
+    transform: translate(-50%, 0);
+}
+
+img {
+    pointer-events: none;
+}

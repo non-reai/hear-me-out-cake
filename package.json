@@ -1,0 +1,24 @@
+{
+  "name": "hear-me-out-cake",
+  "version": "1.0.0",
+  "description": "Hear me out cake game",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/non-reai/hear-me-out-cake.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/non-reai/hear-me-out-cake/issues"
+  },
+  "homepage": "https://github.com/non-reai/hear-me-out-cake#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
+}
